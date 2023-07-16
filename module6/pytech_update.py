@@ -9,10 +9,10 @@ db = client.pytech
     #Print Statemant if Datatabase Variable
 mycollection =db["students"]
 
-myquery = {"Last_Name" : "Trahald" }
+myquery = {"Student_ID" : "1007" }
 newvalues = {"$set": {"Last_Name": "Golum"}}
 mycollection.update_one(myquery, newvalues)   
 
 #print "customers" after the update:
 for x in mycollection.find({'Student_ID': 1007}):
-  print(x) 
+  print(x)
