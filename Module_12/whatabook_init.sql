@@ -114,7 +114,7 @@ INSERT INTO user(first_name, last_name)
 -- insert Store recod location
 -- Added location from Peer review 
 INSERT INTO store(locale)
-    VALUES("828 Broadway, New York, NY 10003")    
+    VALUES("828 Broadway, New York, NY 10003");    
 
 -- insert wishlist records~ 
 
